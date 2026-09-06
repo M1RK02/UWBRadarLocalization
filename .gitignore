@@ -1,0 +1,50 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tool configs
+.gemini/
+.copilot/
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Deep Learning checkpoints and logs
+src/models*/
+*.h5
+*.keras
+logs/
+tensorboard/
+checkpoints/
+
+# Local test outputs generated during evaluation
+*my_output.jsonl
+predictions.jsonl
+
+# Dataset
+multi-person-localization/
+
+# Preprocessing cache (regenerated on demand from the dataset)
+cache/
+
+# Local training run logs
+*.log
